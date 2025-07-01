@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 function formatTime(ms) {
     const totalSeconds = Math.floor(ms / 1000);
     const days = Math.floor(totalSeconds / (3600 * 24));
